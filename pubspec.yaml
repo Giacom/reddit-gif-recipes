@@ -1,0 +1,10 @@
+name: reddit_recipe_gifs
+description: A sample application
+dependencies:
+        bootstrap: "^3.3.4"
+        reddit: "^0.3.3"
+        browser: "^0.10.0+2"
+transformers:
+        - bootstrap:
+                url: https://maxcdn.bootstrapcdn.com/bootstrap/{{version}}
+                version: 3.3.4
